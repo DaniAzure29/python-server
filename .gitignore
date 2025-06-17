@@ -1,0 +1,32 @@
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environment
+virtual/
+
+# ====================
+# Environment Variables
+# ====================
+.env
+*.tfvars
+*.tfvars.json
+
+# ====================
+# Terraform 
+# ====================
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/*.tfplan
+terraform/*.backup
+terraform/*.tfvars
+terraform/*.tfvars.json
+terraform/*.log
+terraform/.crash/
